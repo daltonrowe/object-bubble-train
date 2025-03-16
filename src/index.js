@@ -5,5 +5,5 @@ function key(r) {
 }
 
 export default function () {
-  return difference(cylinder(4, 10), key(2));
+  return difference(cylinder(4, 20), key(1.7));
 }

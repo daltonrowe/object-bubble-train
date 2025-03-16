@@ -1,13 +1,13 @@
 $fn = 100;
 difference()
 {
-  cylinder(h = 4, r = 10, center = true);
+  cylinder(h = 4, r = 20, center = true);
   difference()
   {
-    cylinder(h = 7, r = 2, center = true);
-    translate(v = [2.4, 0, 0])
+    cylinder(h = 7, r = 1.7, center = true);
+    translate(v = [2.04, 0, 0])
     {
-      cube(size = [2, 20, 20], center = true);
+      cube(size = [1.7, 20, 20], center = true);
     }
   }
 }
